@@ -1,70 +1,84 @@
-<h1>Ode ai CSS</h1>
-color:HTML5;
-<p class="p1"></p>con il color dipingi emozioni</p>
-<p class="p2"></p>
-<p class="p3"></p>
-<p class="p4"></p>
-<style>
-.p1{
-  color:red;
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ode ai CSS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Ode ai CSS</h1>
+  </header>
+
+  <main>
+    <section class="poesia">
+      <p>CSS, come un'artista paziente,</p>
+      <p>ogni pagina diventa un capolavoro elegante.</p>
+      <p>Colori e forme, trama e fantasia,</p>
+      <p>creano un'armonia che prende vita.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Creazione Poetica</p>
+  </footer>
+</body>
+</html>
+/* Impostazioni generali */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-.p2{
-  font-size: 12px;
-  .p3}
- ont-family;
- }
-  p.4{
-    font-weight;
-  }
-</style>
-<table>
-	<tr>
-		<th>
-			Intestazione colonna 1
-		</th>
-	</tr>
-	<tr>
-		<td>
-			<p>con il color dipingi emozion</p>
-		</td>
-		<td>
-			<p id="testo-giallo">Riga 1, colonna 2</p>
-		</td>
-		<td>
-			<p class="testo-verde">Riga 1, colonna 3</p>
-		</td>
-		<td>
-			<p>Riga 1, colonna 4</p>
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<p class="testo-verde">Riga 2, colonna 1</p>
-		</td>
-	</tr>
-</table>
-<style>
-	table {
-		border-style: solid;
-		border-width: 1px;
-		border-color: black;
-		/* rimuovi i commenti dal seguente stile per cambiare il comportamento dei bordi della tabella */
-		/* border-collapse: collapse; */
-	}
-	
-	td, th {
-		border-style: dashed;
-		border-width: 1px;
-		border-color: blue;
-	}
-	
-	.testo-verde {
-		/* Usare il sito https://www.w3schools.com/colors/colors_picker.asp per ottenere altri colori */
-		color: #00FF00;
-	}
-	
-	#testo-giallo {
-		/* Usare il sito https://www.w3schools.com/colors/colors_picker.asp per ottenere altri colori */
-		color: yellow;
-	}
-</style>
+
+/* Header */
+header {
+  text-align: center;
+  background-color: #3a3a3a;
+  color: white;
+  padding: 20px;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+/* Sezione principale */
+main {
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+  padding: 20px;
+}
+
+.poesia {
+  font-size: 1.5em;
+  line-height: 1.6;
+  margin-top: 20px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #3a3a3a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+background-color: #ffeb3b; /* Giallo chiaro */
+color: #2c3e50; /* Blu scuro */
