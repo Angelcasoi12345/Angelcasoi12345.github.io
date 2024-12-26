@@ -8,3 +8,10 @@ float calcolaProporzione(float a, float b, float c) {
     // Risolviamo per d: d = (b * c) / a
     return (b * c) / a;
 }
+
+int main() {
+    float a = 2, b = 3, c = 5;
+    float d = calcolaProporzione(a, b, c);
+    printf("La proporzione risolta è: %.2f\n", d);
+    return 0;
+}</b>
